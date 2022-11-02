@@ -1,1 +1,7 @@
 body{color: #f90}
+
+tr{color: rgba(0, 255, 234, 0.76)}
+
+.tableHeading{ color:brown}
+
+table, tr, td{border-collapse: collapse;}

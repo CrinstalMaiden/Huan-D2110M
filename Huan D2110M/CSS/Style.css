@@ -5,9 +5,7 @@
     src: url(../Font/BreathePro.otf);
 }
 
-body{color: #f90}
-
-tr
+tr, body
 {
     color: rgba(13, 54, 51, 0.76);
     font-size: 18px/1em;
@@ -19,10 +17,6 @@ tr
     font-family: 'Roboto', sans-serif;
 }
 
-p{
-    font-size: 48px;
-}
-
 h4{
     font-size: 30px;
     font-family: dmThanh;
@@ -30,3 +24,5 @@ h4{
 }
 
 table, tr, td{border-collapse: collapse;}
+
+textarea{resize: none;}

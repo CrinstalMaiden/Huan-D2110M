@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto&display=swap');
+
+@font-face {
+    font-family: dmThanh;
+    src: url(../Font/BreathePro.otf);
+}
+
+tr, body
+{
+    color: rgba(13, 54, 51, 0.76);
+    font-size: 18px/1em;
+    font-family: 'Quicksand', sans-serif;;
+}
+
+.tableHeading{
+    color:brown;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    font-size: 30px;
+    font-family: dmThanh;
+    color:crimson;
+}
+
+table, tr, td{border-collapse: collapse;}
+
+textarea{resize: none;}

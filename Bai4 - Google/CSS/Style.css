@@ -9,24 +9,9 @@
     color:#666;
 }
 
-.content{
-    width: 600px;
-    height: 400px;
-    /* background-color: aqua; */
-    margin: 100px auto;
-}
-
-
-.bottom{
-    width: 100%;
-    height: 100px;
-    background-color: #f2f2f2;
-    margin: auto;
-
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+.topmenu nav{
+    float: right;
+    margin-top: 20px;
 }
 
 li{
@@ -35,12 +20,12 @@ li{
     margin: 5px 10px;
 }
 
-nav{
-    float: right;
-    margin-top: 20px;
+
+.topmenu li:hover{
+    color: rgb(151, 151, 151);
 }
 
-button{
+.topmenu button{
     font-size: 14px;
     padding: 9px 23px;
     background-color: #1a73e8;
@@ -50,8 +35,12 @@ button{
     margin-top: -10px;
 }
 
-.topmenu li:hover{
-    color: rgb(151, 151, 151);
+
+.content{
+    width: 600px;
+    height: 400px;
+    /* background-color: aqua; */
+    margin: 100px auto;
 }
 
 input[type=submit]{
@@ -93,4 +82,37 @@ form{
     position: relative;
     /* background-color: rgb(255, 0, 212); */
     margin-top: 20px;
+}
+
+
+.bottom{
+    width: 100%;
+    height: 90px;
+    background-color: #f2f2f2;
+    margin: auto;
+
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.botmenu{
+    /* background-color: #3c4043; */
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.botmenu p, .botmenu nav{
+    margin-top: unset;
+    padding-left: 10px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
 }

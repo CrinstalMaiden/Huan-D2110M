@@ -17,7 +17,7 @@
 li{
     list-style: none;
     float: left;
-    margin: 5px 10px;
+    margin: 0px 10px;
 }
 
 
@@ -104,7 +104,13 @@ form{
     border-bottom: 1px solid #dadce0;
 }
 
-.botmenu p, .botmenu nav{
+.botmenu p{
+    margin-top: unset;
+    padding-left: 20px;
+}
+
+
+.botmenu nav{
     margin-top: unset;
     padding-left: 10px;
 }

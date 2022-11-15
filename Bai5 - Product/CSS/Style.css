@@ -34,8 +34,8 @@ body{
     
 }
 
-.product:hover .frame2 img{
-    height: 100%;
+.product:hover .frame2{
+    height: 56px;
 }
 
 .picframe{
@@ -66,14 +66,14 @@ body{
 .frame2{
     margin-top: 10px;
     width: auto;
-    height: 56px;
+    height: 0px;
     /* background-color: aqua; */
 }
 
 .frame2 img{
     float: left;
     width: 56px;
-    height: 0%;
+    height: 100%;
     /* background-color: blueviolet; */
     object-fit: cover;
 }
@@ -86,8 +86,4 @@ body{
 .subhead{
     color: gray;
     font-size: 14px;
-}
-
-.frame2 img:nth-child() .picframe img:nth-child(){
-    opacity: 100%;
 }

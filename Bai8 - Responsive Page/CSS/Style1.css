@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* RESPONSIVE */
+
+/* Create n equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.3%;
+    height: 200px;
+    background-color: brown;
+}
+
+.bg-green{
+    background-color: green;
+}
+  
+/* Clear floats */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Definition of new responsive layout */
+@media screen and (max-width: 1920px) {
+    .column {
+      width: 33.3%;
+    }
+    h1{
+       font-size: 50px;
+    }
+}
+  
+@media screen and (max-width: 1366px){
+    .column {
+        width: 50%;
+        height: 100px;
+    }
+} 
+
+@media screen and (max-width: 576px) {
+    .column{
+        width: 100%;
+        height: 100px;
+    }
+    
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p{
+    font-size: 40px;
+    color: blueviolet;
+}
+
+button{
+    padding: 20px 40px;
+    color: cornflowerblue;
+    background-color: antiquewhite;
+}

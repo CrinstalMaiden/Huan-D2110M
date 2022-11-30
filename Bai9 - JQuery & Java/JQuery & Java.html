@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery & Java</title>
+
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script src="JS/jquery-3.6.1.min.js"></script>
+
+</head>
+<body>
+    <center>
+        <button id="a">Thanh</button>
+        <button id="b">Chen</button>
+        <button id="c">Nga</button>
+        <p class="a">Xin chao Thanh</p>
+        <p class="a">DM Thanh</p>
+
+        <p class="b">Xin chao Chen</p>
+        <p class="b">Yeu Chen</p>
+
+        <p class="c">Xin chao Nga</p>
+        <p class="c">Nga yeu Thanh</p>
+    </center>
+
+
+    <!-- JQuery Syntax -->
+    <script>
+        $(document).ready(function(){
+            $(Element).event(function(){
+                $(Element).effect(time)
+            })
+        })
+    </script>
+
+    <!-- After element ready, run JS code with the event or effect -->
+    
+    <!-- Event:
+    - click
+    - dbclick
+    Effect:
+    - Hide
+    - Show
+    - Toggle 
+    Element:
+    - Tag name
+    - #ID name
+    - .Class name
+    Put in ""
+    - this (this object)
+    -->
+
+    <!-- Click on p then disappear after 5s -->
+
+    <script>
+        $(document).ready(function(){
+            $("p").hide()
+
+            $("#a").click(function(){
+                $(".a").show(500);
+                $(".b, .c").hide()
+            })
+
+            $("#b").click(function(){
+                $(".b").show(500);
+                $(".a, .c").hide()
+            })
+
+            $("#c").click(function(){
+                $(".c").show(500);
+                $(".b, .a").hide()
+            })
+        })
+    </script>
+
+</body>
+</html>

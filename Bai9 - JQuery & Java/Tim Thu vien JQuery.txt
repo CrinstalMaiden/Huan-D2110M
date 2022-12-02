@@ -1,0 +1,6 @@
+JQueryscript.net
+
+- Download
+- Upzin
+- Run locally
+- Adjust freely (Delete all unrelevant parts, add our own code in)

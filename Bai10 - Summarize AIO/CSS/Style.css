@@ -1,0 +1,387 @@
+/* HEADER */
+
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #87509c;
+}
+
+nav{
+    float: right;
+}
+
+.header li{
+    list-style: none;
+    float: left;
+    margin: 35.625px 20px;
+}
+
+/* CONTAINER */
+
+.container{
+    width: 1100px;
+    height: 100%;
+    /* background-color: rgb(35, 35, 141); */
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.header .container img{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+
+    height: 38px;
+    /* background-color: black; */
+}
+
+/* CONTENT */
+
+.content{
+    background-color: #87509c;
+}
+
+.content h1{
+    width: 975px;
+    height: 100%;
+    text-align: center;
+    /* background-color: black; */
+}
+
+.content button{
+    margin: 45px 0px 0px 0px;
+    padding: 15px 72px;
+    background-color: #eb7d4c;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    color: #ffffff;
+    box-shadow: 0px 3px #b16341;
+}
+
+.content button:hover{
+    background-color: #b1634132;
+    box-shadow: 0px 3px #eb7d4c;
+    border: 2px solid #eb7d4c;
+}
+
+/* RECTANGLE */
+
+.rectangle{
+    width: 90px;
+    height: 4px;
+    background-color: #24242454;
+    border-radius: 2px;
+    margin-top: 25px;
+}
+
+/* SERVICE */
+
+.service{
+    width: 100%;
+    background-color: #18c2a5;
+}
+
+
+.service p{
+    width: 680px;
+    height: 65px;
+    margin-top: 25px;
+    text-align: center;
+    /* background-color: black; */
+}
+
+
+.service .frame{
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    margin-top: 60px;
+    /* background-color: #3c4761; */
+
+}
+
+.service img{
+    width: 160px;
+    height: 160px;
+    object-fit: none;
+    object-position: center center;
+}
+
+
+/* BIGBOX */
+
+.bigbox{
+    width: 1100px;
+    /* background-color: brown; */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* BOX1 */
+
+.box{
+    width: 260px;
+    /* background-color: cornflowerblue; */
+}
+
+.box h3{
+    margin-top: 25px;
+}
+
+.box p{
+    width: 80%;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.box p.details{
+    color: #30bae7;
+    margin-top: 5px;
+}
+
+
+/* TEAM */
+
+.team{
+    color: #3c4761;
+}
+
+.team p{
+    margin-top: 25px;
+    text-align: center;
+    /* background-color:burlywood; */
+}
+
+.team h3{
+    margin-top: 50px;
+    /* background-color:burlywood; */
+}
+
+.team .frame{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 40px;
+    background-color: #878787;
+}
+
+.iconbox img{
+    margin: 25px 3px;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    background-color: #ffdd99;
+    color: #393939;
+}
+
+.portfolio p{
+    width: 600px;
+    margin-top: 25px;
+    text-align: center;
+    /* background-color: black; */
+}
+
+.portfolio .button{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio button{
+    margin: 45px 0px 0px 0px;
+    padding: 15px 40px;
+    background-color: #18c2a5;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    color: #ffffff;
+    box-shadow: 0px 3px #14927d;
+}
+
+.portfolio button p{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.portfolio button:hover{
+    background-color: #18c2a652;
+    box-shadow: 0px 3px #18c2a5;
+    border: 2px solid #18c2a5;
+    color: #393939;
+}
+
+/* BOX2 */
+
+.box2{
+    width: 540px;
+    margin: 25px 0px;
+    /* background-color: brown; */
+}
+
+.box2 p{
+    width: 100%;
+    font-weight: bold;
+}
+
+/* RECOMMENDATION */
+
+.recommendation{
+    background-color: #d74680;
+}
+
+.recommendation p{
+    margin-top: 25px;
+    /* background-color: black; */
+}
+
+/* BOX3 */
+
+.box3{
+    width: 540px;
+    height: 160px;
+    margin-top: 80px;
+    /* background-color: brown; */
+    position: relative;
+}
+
+.box3 .frame{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #787878;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.box3 i{
+    width: 75%;
+    text-align: left;
+    position: absolute;
+    margin-top: 0px;
+    top: 0px;
+    left: 125px;
+    /* background-color: black; */
+}
+
+.box3 h3{
+    position: absolute;
+    top: 105px;
+    left: 125px;
+}
+
+.box3 p{
+    margin-top: 0px;
+    position: absolute;
+    top: 135px;
+    left: 125px;
+    color: #ffdd99;
+}
+
+/* CONTACT */
+
+.contact{
+    background-color: #3c5499;
+}
+
+.contact p{
+    margin-top: 25px;
+    /* background-color: black; */
+}
+
+.contact .bigbox{
+    width: 900px;
+}
+
+.contact input{
+    width: 430px;
+    height: 60px;
+    /* margin-top: 80px; */
+    border-radius: 5px;
+    background-color: #24242476;
+
+}
+
+.contact form{
+    width: 430px;
+    height: 60px;   
+    margin-top: 80px;
+    position: relative;
+    /* background-color: #b16341; */
+}
+
+form p{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    /* background-color: black; */
+}
+
+#star{
+    color: #ff4444;
+}
+
+input[type=text]{
+    padding: 0px 30px 0px 150px;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.box4{
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+}
+
+.box4 textarea{
+    resize: none;
+    width: 100%;
+    height: 200px;
+    padding: 60px 30px;
+    border-radius: 5px;
+    background-color: #24242476;
+}
+
+.box4 p{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    /* background-color: black; */
+}
+
+.contact button{
+    margin: 45px 0px 0px 0px;
+    padding: 15px 69px;
+    background-color: #30bae7;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    color: #ffffff;
+    box-shadow: 0px 3px #2283a3;
+}
+
+.contact button p{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.contact button:hover{
+    background-color: #30b9e751;
+    box-shadow: 0px 3px #30bae7;
+    border: 2px solid #30bae7;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #344b8e;
+}
+
+.footer .bigbox{
+    width: 1000px;
+}
+

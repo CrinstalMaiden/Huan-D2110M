@@ -15,30 +15,25 @@
 /* Home */
 
 .home{
-    position: absolute;
-    width: 1800px;
+    width: 93.75%;
     height: 1080px;
-    left: 120px;
-    top: 0px;
+    margin-left: 6.25%;
+    /* background-color: aqua; */
 }
 
-.home img{
-    position: absolute;
-    width: 983px;
+.home .img-container{
+    width: 800px;
     height: 1080px;
+    position: absolute;
     right: 0px;
     top: 0px;
-
-    object-fit: cover;
+    /* background-color: black; */
 }
 
 .group1{
-    position: absolute;
-    width: 617px;
-    height: 489px;
-    left: 165px;
-    top: 295px;
-    /* background-color: black; */
+    width: 620px;
+    margin: 295px 0px 0px 285px;
+    background-color: black;
 }
 
 .name{

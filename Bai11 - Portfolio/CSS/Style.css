@@ -16,19 +16,19 @@
 .home{
     height: 1080px;
     margin: 0px 220px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 /* Text 1 */
 
 .text1{
     width: 700px;
-    padding: 340px 0px;
+    padding: 320px 0px;
     /* background-color: black; */
 }
 
 .name{
-    height: 72px;
+    overflow: hidden;
 }
 
 .name h1{
@@ -106,16 +106,19 @@ button#abtme:hover{
 
 /* Text-2 */
 
-.text2{
+#a{
     position: absolute;
+    right: 0;
+}
+
+.text2{
     width: 875px;
-    right: 0px;
     background-color: black;
+    overflow: hidden;
 }
 
 .name2{
-    height: 72px;
-    float: right; 
+    float: right;
 }
 
 .name2 h1{
@@ -130,13 +133,12 @@ button#abtme:hover{
 /* Box-container */
 
 .box-container{
-    position: absolute;
     width: 875px;
-    right: 0px;
     background-color: green;
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .highlight{

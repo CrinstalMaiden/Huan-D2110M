@@ -8,7 +8,7 @@
 .layer0{
     width: 100%;
     height: 5849px;
-    background-color: #fff8ed;
+    background-color: darkgreen;
 }
 
 /* I. Home */
@@ -16,6 +16,7 @@
 .layer1{
     width: 1920px;
     margin: 0 auto;
+    background-color: #fff8ed;
     /* background-color: cornflowerblue; */
 }
 
@@ -110,7 +111,6 @@ button#abtme:hover{
 
 .aboutme{
     position: relative;
-    width: 1480px;
     height: 1411px;
     /* background-color: aqua; */
 }
@@ -216,13 +216,44 @@ button#abtme:hover{
 
 /* III. Skill Sets */
 
-#BG2{
-    width: 100%;
-    height: 1651px;
-    top: 1080px;
+.skill-sets{
+    padding: 120px 0px;
+    /* background-color: cadetblue; */
 }
 
-.skill-sets{
+.text5{
+    width: 770px;
+    margin: 0 auto 50px auto;
+    /* background-color: black; */
+}
 
+.text5 .name{
+    width: 440px;
+    margin: 0 auto 25px auto;
+}
+
+/* Box-container3 */
+
+.box-container3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 50px;
+
+    width: 1120px;
+
+    /* background-color: #4e241d; */
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    /* background-color: crimson; */
+}
+
+.box3a{
+    width: 75px;
+    height: 100px;
 }
 

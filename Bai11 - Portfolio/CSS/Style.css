@@ -11,9 +11,17 @@
     background-color: #fff8ed;
 }
 
-/* Home */
+/* I. Home */
+
+.layer1{
+    width: 1920px;
+    margin: 0 auto;
+    /* background-color: cornflowerblue; */
+}
 
 .home{
+    position: relative;
+    width: 1700px;
     height: 1080px;
     margin: 0px 220px;
     /* background-color: aqua; */
@@ -22,8 +30,10 @@
 /* Text 1 */
 
 .text1{
+    position: absolute;
     width: 700px;
     padding: 320px 0px;
+    overflow: hidden;
     /* background-color: black; */
 }
 
@@ -76,7 +86,7 @@ button#abtme:hover{
 }
 
 .home .img-container{
-    width: 800px;
+    width: 860px;
     height: 1080px;
     position: absolute;
     right: 0px;
@@ -85,10 +95,10 @@ button#abtme:hover{
 }
 
 
-/* About me */
+/* II. About me */
 #BG1{
     position: absolute;
-    width: 100%;
+    width: 1920px;
     height: 1651px;
     top: 1080px;
 
@@ -100,21 +110,24 @@ button#abtme:hover{
 
 .aboutme{
     position: relative;
-    height: 1651px;
-    background-color: aqua;
+    width: 1480px;
+    height: 1411px;
+    /* background-color: aqua; */
 }
+
+.group1{
+    position: absolute;
+    right: 0;
+    /* background-color: chocolate; */
+}
+
 
 /* Text-2 */
 
-#a{
-    position: absolute;
-    right: 0;
-}
-
 .text2{
     width: 875px;
-    background-color: black;
     overflow: hidden;
+    /* background-color: black; */
 }
 
 .name2{
@@ -134,13 +147,82 @@ button#abtme:hover{
 
 .box-container{
     width: 875px;
-    background-color: green;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
-.highlight{
-    width: 400px;
+.text3{
+    margin: 150px 0px;
 }
+
+.box{
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: #ab7e67;
+    box-shadow: 7.5px 7.5px 0px #4e241d;
+}
+
+.box:hover{
+    background-color: #4e241d;
+    box-shadow: 7.5px 7.5px 0px #ab7e67;
+}
+
+.box:hover h1.big{
+    font-size: 110px;
+    color: #fff8ed;
+}
+
+.box:hover h2.condensed{
+    font-size: 32px;
+    color: #ab7e67;
+}
+
+.group2{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 840px;
+}
+
+/* Box-container2 */
+
+.box2{
+    height: 150px;
+    border-radius: 15px;
+    background: linear-gradient(270deg, #AB7E67 0%, rgba(171, 126, 103, 0) 100%);
+}
+
+.box2#a{
+    background: linear-gradient(90deg, #AB7E67 0%, rgba(171, 126, 103, 0) 100%); 
+}
+
+.text4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+    padding: 40px 100px;
+    gap: 68px;
+    color: #261a34;
+}
+
+.text4 p{
+    width: 500px;
+}
+
+/* III. Skill Sets */
+
+#BG2{
+    width: 100%;
+    height: 1651px;
+    top: 1080px;
+}
+
+.skill-sets{
+
+}
+

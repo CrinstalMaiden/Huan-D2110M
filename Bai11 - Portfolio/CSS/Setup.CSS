@@ -15,12 +15,23 @@ h1{
     color: #ab7e67;
 }
 
+h1.big{
+    font-size: 80px;
+    line-height: 110%;
+    letter-spacing: 0;
+}
+
 h2{
     font-weight: 700;
     font-size: 40px;
     line-height: 120%;
     letter-spacing: 0.12em;
     text-transform: uppercase;
+}
+
+h2.condensed{
+    letter-spacing: 0;
+    text-transform: capitalize;
 }
 
 h3{
@@ -63,8 +74,8 @@ p.info{
     text-align: center;
 }
 
-.vertical-120{
-    margin: 120px 0px;
+.margin-220-120{
+    margin: 120px 220px;
 }
 
 .marginbot-50{

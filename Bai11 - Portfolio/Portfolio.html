@@ -8,11 +8,50 @@
 
     <link rel="stylesheet" href="CSS/Setup.CSS">
     <link rel="stylesheet" href="CSS/Style.css">
+
+    <script src="JS/jquery-3.6.1.min.js"></script>
+    <script src="JS/action.js"></script>
+
 </head>
 
 <body>
     <div class="layer0">
         <div class="layer1">
+
+                <img src="Images/King 2.jpg" alt="King2.jpg" id="BG1">
+
+                <!-- Menu bar -->
+
+                <div class="menubar">
+                    <div class="box-container0">
+                        <div class="box0" id="home">
+                            <img src="Images/Home2.svg" alt="" class="img2">
+                            <img src="Images/Home1.svg" alt="" class="img1">
+                        </div>
+
+                        <div class="box0" id="me">
+                            <img src="Images/Me2.svg" alt="">
+                            <img src="Images/Me1.svg" alt="">
+                        </div>
+
+                        <div class="box0" id="skill">
+                            <img src="Images/Skill2.svg" alt="">
+                            <img src="Images/Skill1.svg" alt="">
+                        </div>
+
+                        <div class="box0" id="product">
+                            <img src="Images/Product2.svg" alt="">
+                            <img src="Images/Product1.svg" alt="">
+                        </div>
+
+                        <div class="box0" id="contact">
+                            <img src="Images/Contact2.svg" alt="">
+                            <img src="Images/Contact1.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
                 <!-- Home -->
 
                 <div class="home">
@@ -23,7 +62,7 @@
                     <div class="text1">
                         <h1>greeting!</h1>
                         <div class="name marginbot-25">
-                            <h1 style="margin-right: 25px;">i'm</h1>
+                            <h1 class="marginright-25">i'm</h1>
                             <h1 style="color: #261a34;">shelby</h1>
                         </div>
                         <div class="title marginbot-25">
@@ -40,13 +79,11 @@
                 
                 <!-- About me -->
         
-                <img src="Images/King 2.jpg" alt="King2.jpg" id="BG1">
-        
-                <div class="aboutme margin-220-120">
+                <div class="aboutme v120-h220">
                     <div class="group1">
                         <div class="text2 marginbot-50">
                             <div class="name2 marginbot-25">
-                                <h1 style="margin-right: 25px;">about</h1>
+                                <h1 class="marginright-25">about</h1>
                                 <h1 style="color: #261a34;">me</h1>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur. Facilisi vulputate id ultrices a pellentesque risus vestibulum eu. Sit parturient quis viverra at et ut accumsan sit. Imperdiet lectus feugiat ipsum amet est. Justo ut varius risus semper. Facilisi cursus magna lacinia adipiscing ullamcorper.</p>
@@ -73,7 +110,7 @@
         
                     <div class="group2">
                         <div class="name marginbot-50">
-                            <h1 style="margin-right: 25px;">my</h1>
+                            <h1 class="marginright-25">my</h1>
                             <h1 style="color: #261a34;">specialties</h1>
                         </div>
         
@@ -104,56 +141,141 @@
         
         
                 <!-- Skill Sets -->
-               
-                <div class="skill-sets margin-220-120">
-                    <div class="text5">
-                        <div class="name marginbot-25">
-                            <h1 style="margin-right: 25px;">skill</h1>
-                            <h1 style="color: #261a34;">sets</h1>
+
+                <div id="BG2">
+                    <div class="skill-sets v120-h220">
+                        <div class="text5">
+                            <div class="name marginbot-25">
+                                <h1 class="marginright-25">skill</h1>
+                                <h1 style="color: #261a34;">sets</h1>
+                            </div>
+                            <p class="marginbot-50" style="text-align: center;">Lorem ipsum dolor sit amet consectetur. Turpis magna in pellentesque egestas pharetra ullamcorper sem aliquam pellentesque. Sit neque ut sit a pretium fusce.</p>        
                         </div>
-                        <p class="marginbot-50" style="text-align: center;">Lorem ipsum dolor sit amet consectetur. Turpis magna in pellentesque egestas pharetra ullamcorper sem aliquam pellentesque. Sit neque ut sit a pretium fusce.</p>        
+                        
+                        <center>
+                            <div class="box-container3">
+                                <div class="box3">
+                                    <img src="Images/Icon1.png" alt="Icon1">
+                                </div>
+            
+                                <div class="box3">
+                                    <img src="Images/Icon2.png" alt="Icon2">
+                                </div>
+                                
+                                <div class="box3">
+                                    <img src="Images/Icon3.png" alt="Icon3">
+                                </div>
+            
+                                <div class="box3">
+                                    <img src="Images/Icon4.png" alt="Icon4">
+                                </div>
+            
+                                <div class="box3">
+                                    <img src="Images/Icon5.png" alt="Icon5">
+                                </div>
+            
+                                <div class="box3a">
+                                    <img src="Images/Icon6.png" alt="Icon6">
+                                </div>
+            
+                                <div class="box3a">
+                                    <img src="Images/Icon7.png" alt="Icon7">
+                                </div>
+            
+                                <div class="box3">
+                                    <img src="Images/Icon8.png" alt="Icon8">
+                                </div>
+                            </div>
+                        </center>
                     </div>
-                    
-                    <center>
-                        <div class="box-container3">
-                            <div class="box3">
-                                <img src="Images/Icon1.png" alt="Icon1">
-                            </div>
-        
-                            <div class="box3">
-                                <img src="Images/Icon2.png" alt="Icon2">
-                            </div>
-                            
-                            <div class="box3">
-                                <img src="Images/Icon3.png" alt="Icon3">
-                            </div>
-        
-                            <div class="box3">
-                                <img src="Images/Icon4.png" alt="Icon4">
-                            </div>
-        
-                            <div class="box3">
-                                <img src="Images/Icon5.png" alt="Icon5">
-                            </div>
-        
-                            <div class="box3a">
-                                <img src="Images/Icon6.png" alt="Icon6">
-                            </div>
-        
-                            <div class="box3a">
-                                <img src="Images/Icon7.png" alt="Icon7">
-                            </div>
-        
-                            <div class="box3">
-                                <img src="Images/Icon8.png" alt="Icon8">
-                            </div>
-                        </div>
-                    </center>
                 </div>
+
 
                 <!-- Feature Products -->
 
-                
+                <div class="feature-projects v120-h220">
+                    <div class="text6">
+                        <div class="name marginbot-25">
+                            <h1 class="marginright-25">feature</h1>
+                            <h1 style="color: #261a34;">projects</h1>
+                        </div>
+                        <p class="marginbot-50">Lorem ipsum dolor sit amet consectetur. Turpis magna in pellentesque egestas pharetra ullamcorper sem aliquam pellentesque. Sit neque ut sit a pretium fusce.</p>        
+                    </div>
+
+                    <div class="box-container4 marginbot-50">
+                        <div class="box4">
+                            <div class="img-container2 marginbot-25">
+                                <img src="Images/Whiskey.jpg" alt="Whiskey" id="whiskey">
+                            </div>
+                            <h3>whiskey branding</h3>
+                        </div>
+
+                        <div class="box4">
+                            <div class="img-container2 marginbot-25">
+                                <img src="Images/Bistro.jpg" alt="Bistro" id="bistro">
+                            </div>
+                            <h3>bistro interior design</h3>
+                        </div>
+                    </div>
+
+                    <div class="box-container4">
+                        <div class="box4">
+                            <div class="img-container2 marginbot-25">
+                                <img src="Images/Palace.jpg" alt="Palace" id="palace">
+                            </div>
+                            <h3>3d palace creation</h3>
+                        </div>
+
+                        <div class="box4">
+                            <div class="img-container2 marginbot-25">
+                                <img src="Images/Texture.jpg" alt="Texture" id="texture">
+                            </div>
+                            <h3>3d texture simulation</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Hire me -->
+
+                <div id="BG3">
+                    <div class="hire-me v120-h220">
+                        <center>
+                            <h1 class="marginbot-25" style="color: #fff8ed;">have any project in mind?</h1>
+                            <p class="marginbot-50">Lorem ipsum dolor sit amet consectetur. Turpis magna in pellentesque egestas pharetra ullamcorper sem aliquam pellentesque. Sit neque ut sit a pretium fusce.</p>
+                            <button id="hireme"><h4>hire me now</h4></button>
+                        </center>
+                    </div>
+                </div>
+
+
+                <!-- Contact me -->
+
+                <div class="contact-me v120-h220">
+                    <div class="text7">
+                        <div class="name3">
+                            <h1 class="marginright-25">contact</h1>
+                            <h1 style="color: #261a34;">me</h1>
+                        </div>
+                        <p class="info">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                        <p class="info">georgia.young@example.com</p>
+                        <p class="info">(+44) 480.555.0103</p>
+                    </div>
+                </div>
+
+
+                <!-- External Link -->
+
+                <div class="external-link">
+                    <center>
+                        <nav>
+                            <a href="https://www.facebook.com/arena.multimedia.vn" target="_blank">facebook</a>
+                            <a href="https://www.linkedin.com/company/arenamultimediavn/" target="_blank">linkedin</a>
+                            <a href="https://www.youtube.com/@ArenaMultimediaVietNam" target="_blank">youtube</a>
+                            <a href="https://www.behance.net/arena-multimedia?isa0=1" target="_blank">behance</a>        
+                        </nav>
+                    </center>
+                </div>
         </div>
     </div>
 </body>

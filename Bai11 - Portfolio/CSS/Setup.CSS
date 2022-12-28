@@ -74,9 +74,7 @@ p{
 }
 
 p.info{
-    font-weight: 400;
     font-size: 20px;
-    line-height: 150%;
     /* margin-bottom: 10px; */
     text-align: center;
 }
@@ -111,4 +109,21 @@ a{
     text-decoration: none;
 
     margin: 0 75px;
+}
+
+button.bigbutton{
+    font-family: inherit;
+    padding: 20px 50px;
+    border: 2px solid transparent;
+    border-radius: 7.5px;
+    background-color: #4e241d;
+    color: #fff8ed;
+    box-shadow: 5px 5px 0px #ab7e67;
+}
+
+button.bigbutton:hover{
+    border: 2px solid #4e241d;
+    background-color: #ab7e67;
+    color: #4e241d;
+    box-shadow: 5px 5px 0px #4e241d;
 }

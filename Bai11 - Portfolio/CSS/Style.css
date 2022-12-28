@@ -22,7 +22,7 @@
 
 .menubar{
     position: fixed;
-    width: 55   px;
+    width: 55px;
     padding: 370px 0;
     /* background-color: aqua; */
     margin-left: 100px;
@@ -120,22 +120,6 @@
     color: #fff8ed;
 }
 
-button#abtme{
-    font-family: inherit;
-    padding: 20px 50px;
-    border: 2px solid transparent;
-    border-radius: 7.5px;
-    background-color: #4e241d;
-    color: #fff8ed;
-    box-shadow: 5px 5px 0px #ab7e67;
-}
-
-button#abtme:hover{
-    border: 2px solid #4e241d;
-    background-color: #ab7e67;
-    color: #4e241d;
-    box-shadow: 5px 5px 0px #4e241d;
-}
 
 .home .img-container{
     width: 860px;
@@ -310,11 +294,33 @@ button#abtme:hover{
 /* IV. Feature Projects */
 
 .feature-projects{
+    position: relative;
     background-color: #fff8ed;
 }
 
 .text6{
     width: 770px;
+}
+
+button#viewall{
+    position: absolute;
+    top: 120;
+    right: 0;
+
+    font-family: inherit;
+    padding: 7.5px 25px;
+    border: 2px solid transparent;
+    border-radius: 7.5px;
+    background-color: #4e241d;
+    color: #fff8ed;
+    box-shadow: 4px 4px 0px #ab7e67;
+}
+
+button#viewall:hover{
+    border: 2px solid #4e241d;
+    background-color: #ab7e67;
+    color: #4e241d;
+    box-shadow: 4px 4px 0px #4e241d;
 }
 
 /* Box-container4 */
@@ -414,4 +420,124 @@ button#hireme:hover{
 
 a:hover{
     color: #261a34; 
+}
+
+/* VIII. Popup1 */
+
+.popup1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 26, 52, 0.8);
+}
+
+/* Message */
+
+.message{
+    position: inherit;
+    width: 750px;
+    height: 670px;
+
+    top: calc(50% - 670px/2);
+    left: calc(50% - 750px/2);
+
+    background-color: #fff8ed;
+    border-radius: 20px;
+}
+
+.box5{
+    padding: 50px 0;
+    /* background-color: aqua; */
+}
+
+.name4{
+    width: 486px;
+    overflow: hidden;
+}
+
+.name4 h1{
+    float: left;
+}
+
+form{
+    position: relative;
+    width: 550px;  
+}
+
+input{
+    width: 550px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #ab7e67;
+    padding: 0 25px 0 170px;
+
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    color: #261a34;
+}
+
+.box5 p{
+    position: absolute;
+    top:  0;
+    left: 0;
+    margin-left: 25px;
+    line-height: 45px;
+}
+
+textarea{
+    width: 550px;
+    height: 200px;
+    background-color: #ab7e67; 
+    border-radius: 5px;
+    resize: none;
+
+    padding: 45px 25px 0 25px;
+
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    color: #261a34;
+}
+
+.popup1 img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+
+    top: 25px;
+    right: 25px;
+}
+
+/* Thankyou */
+
+.thankyou{
+    position: inherit;
+
+    top: calc(50% - 525px/2);
+    left: calc(50% - 580px/2);
+
+    background-color: #fff8ed;
+    width: 580px;
+    height: 525px;
+    border-radius: 20px;
+}
+
+.box6{
+    padding: 120px 0;
+}
+
+.name5{
+    width: 435px;
+    overflow: hidden;
+}
+
+.name5 h1{
+    float: left;
 }
